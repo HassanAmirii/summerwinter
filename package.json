@@ -1,0 +1,20 @@
+{
+  "name": "summerwinter",
+  "version": "1.0.0",
+  "description": " weather API that fetches and returns weather data. using node js, express and openweather API",
+  "homepage": "https://github.com/HassanAmirii/summerwinter#readme",
+  "bugs": {
+    "url": "https://github.com/HassanAmirii/summerwinter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanAmirii/summerwinter.git"
+  },
+  "license": "ISC",
+  "author": "hassan2bit",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
