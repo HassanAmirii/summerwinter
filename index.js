@@ -4,6 +4,9 @@ const port = 3000;
 const express = require("express");
 const app = express();
 
+const Redis = require("ioredis");
+const redis = new Redis();
+
 app.get("/weather/:city", async (req, res) => {
   console.log("city selected", req.params.city);
   try {
