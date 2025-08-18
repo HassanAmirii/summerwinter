@@ -16,6 +16,7 @@ This is a simple but robust weather API built with Node.js and Express. It fetch
 
 To run this project, you need to have Node.js, npm, and Docker installed.
 
+<<<<<<< HEAD
 <strong>Clone the repository: </strong>
 
 ```sh
@@ -27,6 +28,18 @@ cd summerwinter
 (Note: You can skip this step if you are already in the project folder.)
 
 <strong>Install project dependencies: </strong>
+=======
+Clone the repository:
+
+```sh
+git clone https://github.com/HassanAmirii/summerwinter
+cd summerwinter 
+```
+(Note: You can skip this step if you are already in the project folder.)
+
+<strong>Install project dependencies:  </strong>
+Bash
+>>>>>>> 017faee091ac344eae8dd617337c026b4e5430a6
 
 ```sh
 npm install
@@ -53,7 +66,11 @@ docker run --name my-redis-cache -d -p 6379:6379 redis
 ```sh
     node index.js
 
+<<<<<<< HEAD
 ```
+=======
+
+>>>>>>> 017faee091ac344eae8dd617337c026b4e5430a6
 
 ## Usage
 
