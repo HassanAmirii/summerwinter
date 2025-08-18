@@ -16,42 +16,53 @@ This is a simple but robust weather API built with Node.js and Express. It fetch
 
 To run this project, you need to have Node.js, npm, and Docker installed.
 
-<strong>Clone the repository:
-Bash
+<strong>Clone the repository: </strong>
 
+```sh
 git clone https://github.com/HassanAmirii/summerwinter
-cd summerwinter </strong>
+cd summerwinter
+
+```
 
 (Note: You can skip this step if you are already in the project folder.)
 
-<strong>Install project dependencies:
-Bash
+<strong>Install project dependencies: </strong>
 
+```sh
 npm install
 
-Set up your environment variables:
-Create a .env file in the root directory and add your OpenWeatherMap API key.
+```
 
-API_KEY=your_api_key_here
+##### Set up your environment variables:
 
-Start the Redis cache server:
-This project uses Docker to run a Redis instance. In your terminal, run the following command:
-Bash
+- Create a .env file in the root directory and add your OpenWeatherMap API key.
 
+- API_KEY=your_api_key_here
+
+##### Start the Redis cache server:
+
+- This project uses Docker to run a Redis instance. In your terminal, run the following command:
+
+```sh
 docker run --name my-redis-cache -d -p 6379:6379 redis
 
-Run the application:
-Bash
+```
 
+##### Run the application:
+
+```sh
     node index.js
 
- </strong>
+```
 
 ## Usage
 
 Once the server is running, you can access the weather data by visiting the following URL in your browser or with a tool like Postman:
 
+```sh
 http://localhost:3000/weather/[city_name]
+
+```
 
     Example: http://localhost:3000/weather/lagos
 
