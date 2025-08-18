@@ -16,15 +16,15 @@ This is a simple but robust weather API built with Node.js and Express. It fetch
 
 To run this project, you need to have Node.js, npm, and Docker installed.
 
-<strong>Clone the repository:
-Bash
+Clone the repository:
 
+```sh
 git clone https://github.com/HassanAmirii/summerwinter
-cd summerwinter </strong>
-
+cd summerwinter 
+```
 (Note: You can skip this step if you are already in the project folder.)
 
-<strong>Install project dependencies:
+<strong>Install project dependencies:  </strong>
 Bash
 
 npm install
@@ -45,7 +45,7 @@ Bash
 
     node index.js
 
- </strong>
+
 
 ## Usage
 
